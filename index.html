@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <i class="fa-solid fa-bars hamburger-icon"></i>
+            <i class="fa-brands fa-youtube youtube-icon"></i>
+            <h2 class="youtube-font">YouTube</h2>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button"><i class="fa-solid fa-microphone fa-lg voice-search-icon"></i>
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <i class="fa-regular fa-square-plus upload-icon fa-lg"></i>
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="notification-icon-container">
+                <i class="fa-regular fa-bell notification-icon fa-lg"></i>
+                <div class="notifications-count">5</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div>
+                <img class="profile-icon" src="./chanel-pictures//profile-icon.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <i class="fa-solid fa-house fa-lg"></i>
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-regular fa-compass  fa-lg"></i>
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-regular fa-circle-play  fa-lg"></i>
+            <div>Playlists</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-regular fa-clock  fa-lg"></i>
+            <div>Watch Later</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-solid fa-clock-rotate-left  fa-lg"></i>
+            <div>History</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-regular fa-thumbs-up  fa-lg"></i>
+            <div>Liked Videos</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-solid fa-podcast fa-lg"></i>
+            <div>Podcast</div>
+        </div>
+        <div class="sidebar-link">
+            <i class="fa-solid fa-music fa-lg"></i>
+            <div>Podcast</div>
+        </div>
+
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img"
+                        src="https://i.ytimg.com/vi/3uE0RuQndZc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0qKBBYoEhfXS_sK04Fx7L3T6hVg">
+                    <div class="video-time">3:01</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            JIGRA - OFFICIAL THEATRICAL TRAILER | Alia Bhatt | Vedang Raina | Vasan Bala
+                        </p>
+                        <p class="video-author">
+                            Dharma Productions
+                        </p>
+                        <p class="video-status">
+                            51M views &#183; 4days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img"
+                        src="https://i.ytimg.com/vi/JQbTAE400y0/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBQAxirjAWK8rmBsJ9eGCCXRiiV_w"
+                        alt="">
+                    <div class="video-time">3:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            K For Krishna - Video Song | Guruvayoorambala Nadayil | Prithviraj | Basil
+                        </p>
+                        <p class="video-author">
+                            Saregama malayalam
+                        </p>
+                        <p class="video-status">
+                            3M views &#183; 4 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img"
+                        src="https://i.ytimg.com/vi/kW0E_TcHgzg/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLA2RyXyRevMXp2OM_GWQuSgCGLzAQ"
+                        alt="">
+                    <div class="video-time">17:02</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            +2 Free Period | Comedy | Karikku | <br> webseries
+                        </p>
+                        <p class="video-author">
+                            Karikku
+                        </p>
+                        <p class="video-status">
+                            54M views &#183; 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img"
+                        src="https://i.ytimg.com/vi/5oH9Nr3bKfw/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLADljubpShDmiw4b5a5pkjD83fDdA"
+                        alt="">
+                    <div class="video-time">22:56</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-4.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Tom & Jerry | A Bit of Fresh Air! | Classic Cartoon Compilation | @WB Kids </p>
+                        <p class="video-author">
+                            WB Kids
+                        </p>
+                        <p class="video-status">
+                            430M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img"
+                        src="https://i.ytimg.com/vi/4iNMyilmDfg/hq720.jpg?sqp=-…RUAAIhCGAE=&rs=AOn4CLDzzlNxAAeTPoytbS0qICnQIJqDfw"
+                        alt="">
+                    <div class="video-time">11:51:29</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            12K HDR 120fps Dolby Vision with Calming Music (Colorfully Dynamic)
+                        </p>
+                        <p class="video-author">
+                            Dharma Productions
+                        </p>
+                        <p class="video-status">
+                            848k views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img"
+                        src="https://i.ytimg.com/vi/VrrnflVEiMg/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLD_qKu6jAuSB7qG402nvOdbdIAuiw"
+                        alt="">
+                    <div class="video-time">3:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Thiruvaavaniraavu Video Song | Jacobinte Swargarajyam | Nivin Pauly </p>
+                        <p class="video-author">
+                            Muzik247
+                        </p>
+                        <p class="video-status">
+                            16M views &#183; 8 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img" src="./chanel-pictures/image7.webp">
+                    <div class="video-time">3:01</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            2 States Trailer | Arjun Kapoor, Alia Bhatt, Amrita Singh, Ronit Roy
+                        </p>
+                        <p class="video-author">
+                            Dharma Productions
+                        </p>
+                        <p class="video-status">
+                            15M views &#183; 10 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img" src="./chanel-pictures//image8.webp" alt="">
+                    <div class="video-time">3:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Guruvayoorambala Nadayil | Prithviraj | Basil | Anaswara | Ankit Menon
+                        </p>
+                        <p class="video-author">
+                            Saregama malayalam
+                        </p>
+                        <p class="video-status">
+                            3M views &#183; 4 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img" src="./chanel-pictures/image11.webp" alt="">
+                    <div class="video-time">17:02</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Samarthya Shasthram | webseries | Karikku
+                        </p>
+                        <p class="video-author">
+                            Karikku
+                        </p>
+                        <p class="video-status">
+                            10M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img" src="./chanel-pictures/image9.webp" alt="">
+                    <div class="video-time">17:02</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Nunakkuzhi Title Track - Lyrical | Basil Joseph
+                        </p>
+                        <p class="video-author">
+                            Saregama Malayalam
+                        </p>
+                        <p class="video-status">
+                            77k views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img" src="./chanel-pictures/image12.jpg" alt="">
+                    <div class="video-time">17:02</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Oru Nokkil| Madhura Manohara Moham
+                        </p>
+                        <p class="video-author">
+                            Muzik247
+                        </p>
+                        <p class="video-status">
+                            1M views &#183; 1 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail-img" src="./chanel-pictures/image10.webp" alt="">
+                    <div class="video-time">17:02</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="chanel-pictures/channel-3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Happy Onam | Comedy | Karikku
+                        </p>
+                        <p class="video-author">
+                            Karikku
+                        </p>
+                        <p class="video-status">
+                            12M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
